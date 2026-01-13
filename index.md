@@ -12,7 +12,7 @@ excerpt: "Vivian Lee is an engineer with a passion for learning and 3D modeling.
 feature_row:
   - image_path: assets/img/Notes_260113_064504_0.png
     alt: "Syringe Pump"
-    title: "SIY Syringe Pump"
+    title: "DIY Syringe Pump"
     excerpt: "3D Printed 1-10 uL/min Syringe Pump Project."
 ---
 
