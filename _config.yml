@@ -98,7 +98,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/img/blank profile.png"
-  bio              : "Vivian Lee is an engineer with a passion for learning and 3D modeling. Her journey in digital fabrication and projects of the field are documented through this website."
+  bio              : "Class of 2028 - Neuroscience + Medicine, Health, and Society"
   location         : "Nashville, TN"
   links:
     - label: "GitHub"
