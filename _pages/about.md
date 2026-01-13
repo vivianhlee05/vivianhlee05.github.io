@@ -19,4 +19,4 @@ Vivian has hands-on experience with turning design concepts into precise, physic
 * Fused Filament Fabrication (FFF)
 * Computer-Aid Designing (CAD)
 
-assets/img/blank profile.png
+![Image](assets/img/blank profile.png)
