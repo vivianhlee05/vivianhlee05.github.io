@@ -39,7 +39,7 @@ header:
 | Knob button |
 
 # Arduino Code
-
+syringe_pump_v102.ino
 
 # How to Operate
 The syringe pump operates by first connecting the power supply, after which the Arduino Uno runs preloaded code with preset syringe diameter, flow rate, and motor settings. Upon startup, the LCD displays the current speed and a “Ready” status while the LED turns yellow, indicating the system is awaiting input. A 10 mL or 20 mL syringe is secured in the holder, and the carriage is aligned with the plunger using forward and reverse buttons to ensure proper positioning. The user sets the desired flow rate using a dial, with the selected speed shown on the LCD in milliliters per minute. Pressing the start/stop button initiates pumping, turning the LED green as the stepper motor drives the lead screw and advances the carriage to dispense fluid at the chosen rate. The pump can be paused at any time, and once the syringe is empty, a limit switch stops the motor and signals completion with a red LED. Mechanically, the system converts the stepper motor’s rotational motion into linear motion of the carriage via a lead screw, allowing precise and adjustable fluid delivery through software-controlled step frequency without requiring hardware changes.
