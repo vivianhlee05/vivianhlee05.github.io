@@ -1,5 +1,5 @@
 ---
-title: "Example Web Page"
+title: "Digital Fabrication Projects"
 layout: splash
 header:
   overlay_color: "#000"
