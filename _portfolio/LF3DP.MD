@@ -8,19 +8,19 @@ header:
 
 # Features
 
-** Pump is driven by a stepper motor coupled to a lead screw.
-** Flow rate of the pump (mL/min) can easily be set in the Arduino program (i.e., one global variable for flow rate and one for syringe pump diameter). Commanded flow rate may be a decimal (e.g., 0.6 mL/min)
-** The syringe pump is compatible with 20 mL and 10 mL syringe sizes and is capable of driving the plunger to the full extent of each syringe until it is completely emptied.
-** Has LED that is green when running, yellow when paused, and red when out of liquid.
-** One latching button to start and pause the motion of the pump.
-** A switch which stops the motion when the plunger has reached its limit (i.e., there is no more liquid left in the pump).
-** Two additional monetary buttons that move the motor clockwise and counterclockwise to be able to set the spacing of the plunger holder when loading the syringe without having to move the lead screw with your fingers
+** * Pump is driven by a stepper motor coupled to a lead screw.
+** * Flow rate of the pump (mL/min) can easily be set in the Arduino program (i.e., one global variable for flow rate and one for syringe pump diameter). Commanded flow rate may be a decimal (e.g., 0.6 mL/min)
+** * The syringe pump is compatible with 20 mL and 10 mL syringe sizes and is capable of driving the plunger to the full extent of each syringe until it is completely emptied.
+** * Has LED that is green when running, yellow when paused, and red when out of liquid.
+** * One latching button to start and pause the motion of the pump.
+** * A switch which stops the motion when the plunger has reached its limit (i.e., there is no more liquid left in the pump).
+** * Two additional monetary buttons that move the motor clockwise and counterclockwise to be able to set the spacing of the plunger holder when loading the syringe without having to move the lead screw with your fingers
 
 # Materials and Parts Needed
 
 
-| Off the Shelf | 3D Printed |
-| ------------- | ------------- |
+| Off the Shelf            | 3D Printed    |
+| ------------------------ | ------------- |
 | 250 mm lead screw with 2 mm pitch and 2 mm lead (x1) | Motor Backplate |
 | 250 mm lead screw with 2 mm pitch and 8 mm lead (x1) | Carriage |
 | 1/4” x 8mm flexible coupling (x1)	| Syringe End Support |
@@ -38,7 +38,12 @@ header:
 | RGB common cathode LED (x3)	| 
 | Knob button |
 
+# Arduino Code
+
+
+# How to Operate
+The syringe pump operates by first connecting the power supply, after which the Arduino Uno runs preloaded code with preset syringe diameter, flow rate, and motor settings. Upon startup, the LCD displays the current speed and a “Ready” status while the LED turns yellow, indicating the system is awaiting input. A 10 mL or 20 mL syringe is secured in the holder, and the carriage is aligned with the plunger using forward and reverse buttons to ensure proper positioning. The user sets the desired flow rate using a dial, with the selected speed shown on the LCD in milliliters per minute. Pressing the start/stop button initiates pumping, turning the LED green as the stepper motor drives the lead screw and advances the carriage to dispense fluid at the chosen rate. The pump can be paused at any time, and once the syringe is empty, a limit switch stops the motor and signals completion with a red LED. Mechanically, the system converts the stepper motor’s rotational motion into linear motion of the carriage via a lead screw, allowing precise and adjustable fluid delivery through software-controlled step frequency without requiring hardware changes.
+
 # CAD Model
 <iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
