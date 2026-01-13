@@ -6,6 +6,7 @@ header:
   teaser: assets/img/Notes_260113_064504_0.png
 ---
 title: "Features"
+excerpt: 
 *Pump is driven by a stepper motor coupled to a lead screw.
 *Flow rate of the pump (mL/min) can easily be set in the Arduino program (i.e., one global variable for flow rate and one for syringe pump diameter). Commanded flow rate may be a decimal (e.g., 0.6 mL/min)
 *The syringe pump is compatible with 20 mL and 10 mL syringe sizes and is capable of driving the plunger to the full extent of each syringe until it is completely emptied.
