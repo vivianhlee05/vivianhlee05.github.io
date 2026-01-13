@@ -19,4 +19,4 @@ Vivian has hands-on experience with turning design concepts into precise, physic
 * Fused Filament Fabrication (FFF)
 * Computer-Aid Designing (CAD)
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+![Image](assets/img/blank profile.png)
