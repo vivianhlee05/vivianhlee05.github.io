@@ -1,31 +1,22 @@
 ---
 
-title: "About David Florian"
+title: "About Vivian Lee"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Vivian is a student at Vanderbilt University whose academic path began in chemical engineering and has gradually moved toward neuroscience, with a growing interest in computer-aided design and 3D printing.  
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
+  * BS Neuroscience
+  * BS Medicine, Health, and Society
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Vivian has hands-on experience with turning design concepts into precise, physical outcomes through a range of fabrication and manufacturing skills such as: 
 
 * Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
-
-## Press 
-
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+* Computer-Aid Designing (CAD)
 
 <img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
