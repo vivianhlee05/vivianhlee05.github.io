@@ -4,7 +4,7 @@ excerpt: "DIY Syringe Pump capable of dispensing 1-10 uL/min of flow rate with a
 header:
   image: assets/img/Notes_260113_064504_0.png
   teaser: assets/img/Notes_260113_064504_0.png
----
+
 title: "Features"
 excerpt: 
 *Pump is driven by a stepper motor coupled to a lead screw.
@@ -13,6 +13,6 @@ excerpt:
 *Has LED that is green when running, yellow when paused, and red when out of liquid.
 *One latching button to start and pause the motion of the pump.
 *A switch which stops the motion when the plunger has reached its limit (i.e., there is no more liquid left in the pump).
----
-Title: "Materials and Parts Needed" 
 
+Title: "Materials and Parts Needed" 
+---
